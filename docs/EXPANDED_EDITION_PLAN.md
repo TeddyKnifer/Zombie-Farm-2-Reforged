@@ -70,6 +70,7 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 ### Milestone 1 — modern presentation (in progress)
 - Separate HUD theme layer.
 - Brand the installable app shell as “Zombie Farm 2: Expanded Edition” in `index.html` and `public/manifest.webmanifest`; the existing PWA registration, standalone display mode, safe-area viewport, and local-first save behavior remain in place.
+- Add an original SVG Expanded Edition icon for browsers and supporting PWA clients (`public/icons/expanded-edition.svg`), update the app theme color, and label the launch screen. The iOS-specific `apple-touch-icon.png` remains the repository's existing image until a properly sized original PNG can be produced.
 - Keep existing Pixi rendering and controls intact.
 - Validate narrow portrait, landscape, desktop, focus states, and reduced-motion behavior.
 - Run `npm test` and `npm run build`.
