@@ -69,6 +69,11 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 
 ### Original visual concept assets (pre-production)
 
+### Production implementation spec
+- `docs/PRODUCTION_ART_SPEC.md` maps the Moonmelon, Glowcap, Mooncap Crown, boss, and decoration concepts to the repository's existing runtime contracts, asset paths, atlas stamping, provenance rules, and review checklist.
+- `docs/concepts/glowcap-animation.svg` is a pose-blocking storyboard for an idle loop and spore-burst attack; it is not a runtime flipbook or production sprite sheet.
+
+
 - `docs/concepts/moonmelon.svg` — original three-stage crop study (sprout, vine, ripe fruit).
 - `docs/concepts/glowcap.svg` — original friendly support-zombie character study.
 - `docs/concepts/mooncap-crown.svg` — original head-slot mutation study, showing the intended replaceable crown silhouette.
