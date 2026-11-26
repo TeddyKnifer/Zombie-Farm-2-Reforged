@@ -79,6 +79,7 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 
 - `docs/concepts/moonmelon.svg` — original three-stage crop study (sprout, vine, ripe fruit).
 - `docs/concepts/moonmelon-production-sheet.svg` — separate stage-1, stage-2, and standalone harvest-icon art direction for the crop vertical slice; vector study only.
+- `docs/source-art/moonmelon/` contains three separate original transparent SVG source masters (young stage, mature stage, harvest icon) plus export notes; these are not runtime PNG assets yet.
 - `docs/concepts/glowcap.svg` — original friendly support-zombie character study.
 - `docs/concepts/mooncap-crown.svg` — original head-slot mutation study, showing the intended replaceable crown silhouette.
 - `docs/concepts/moonlit-decorations.svg` — original greenhouse, mushroom lantern, root arch, and pond-spirit studies; cosmetic concepts only.
