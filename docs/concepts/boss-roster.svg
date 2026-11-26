@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Expanded Edition original boss roster concepts</title>
+<desc id="desc">Three original fantasy farm bosses: Rotwood Keeper, Lantern Queen and Compost Colossus. Each panel shows a distinct silhouette and telegraphed attack idea.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#1a3038"/><stop offset="1" stop-color="#0b1b22"/></linearGradient>
+ <linearGradient id="bark" x2=".8" y2="1"><stop stop-color="#a77b4e"/><stop offset="1" stop-color="#3f4937"/></linearGradient>
+ <linearGradient id="ghost" x2="0" y2="1"><stop stop-color="#e6ffc4"/><stop offset=".5" stop-color="#8fdfb0"/><stop offset="1" stop-color="#447e8c"/></linearGradient>
+ <linearGradient id="compost" x2="0" y2="1"><stop stop-color="#b9a16b"/><stop offset="1" stop-color="#57432e"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#f1ffd1"/><stop offset=".55" stop-color="#b4ec83"/><stop offset="1" stop-color="#548f68"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="760" rx="32" fill="url(#bg)"/>
+<g fill="#eaffd8" opacity=".55"><circle cx="65" cy="80" r="2"/><circle cx="1140" cy="76" r="2"/><circle cx="598" cy="54" r="1.5"/><circle cx="1085" cy="360" r="1.5"/><circle cx="38" cy="500" r="1.5"/></g>
+<text x="600" y="54" text-anchor="middle" fill="#f0ffdf" font-family="system-ui,sans-serif" font-size="25" font-weight="800" letter-spacing="5">EXPANDED EDITION · BOSS ROSTER</text>
+<text x="600" y="83" text-anchor="middle" fill="#bad6ad" font-family="system-ui,sans-serif" font-size="13" letter-spacing="2">ORIGINAL ENCOUNTER SILHOUETTES · PRE-PRODUCTION STUDY</text>
+<!-- panel 1 -->
+<g transform="translate(40 120)">
+ <rect width="350" height="560" rx="22" fill="#1e3533" stroke="#829d6a" stroke-opacity=".55" stroke-width="2"/>
+ <text x="175" y="34" text-anchor="middle" fill="#efffdc" font-family="system-ui,sans-serif" font-size="18" font-weight="800">ROTWOOD KEEPER</text>
+ <ellipse cx="175" cy="418" rx="115" ry="18" fill="#071318" opacity=".6"/>
+ <!-- roots and legs -->
+ <g stroke="#554b35" stroke-width="13" stroke-linecap="round" fill="none"><path d="M142 310 Q108 350 104 410 L77 432 M202 311 Q239 355 241 410 L270 431"/><path d="M170 329 Q150 376 130 405 M190 331 Q211 377 224 403"/></g>
+ <path d="M116 177 Q100 122 145 105 Q173 73 201 111 Q247 120 235 181 L220 322 Q176 355 127 319Z" fill="url(#bark)" stroke="#344c37" stroke-width="9"/>
+ <path d="M125 174 Q79 139 60 193 L91 219 L130 213 M222 170 Q276 131 293 189 L262 224 L220 211" fill="none" stroke="#8a7047" stroke-width="21" stroke-linecap="round"/>
+ <path d="M143 114 Q126 63 158 50 Q164 93 176 109 M186 108 Q202 54 232 62 Q217 103 207 124" fill="#5b8b53" stroke="#314f39" stroke-width="7"/>
+ <g fill="#b6e77b" filter="url(#glow)"><circle cx="158" cy="196" r="9"/><circle cx="203" cy="196" r="9"/></g>
+ <path d="M157 248 Q178 260 204 244" stroke="#263a2a" stroke-width="8" fill="none" stroke-linecap="round"/>
+ <path d="M94 279 Q66 299 51 334 M256 277 Q286 298 300 335" stroke="#a4cb70" stroke-width="7" fill="none"/>
+ <g fill="#b7e77c"><path d="M49 334 Q22 320 29 300 Q52 301 49 334Z"/><path d="M301 335 Q329 318 322 299 Q299 303 301 335Z"/></g>
+ <path d="M67 454 L281 454" stroke="#7e9d66" stroke-width="2" opacity=".7"/>
+ <text x="175" y="486" text-anchor="middle" fill="#d9efc4" font-family="system-ui,sans-serif" font-size="13" font-weight="700">ROOT-SLAM TELEGRAPH</text>
+ <text x="175" y="508" text-anchor="middle" fill="#b9d2a8" font-family="system-ui,sans-serif" font-size="11">Vines mark the danger lane before impact</text>
+ <text x="175" y="536" text-anchor="middle" fill="#a7c39b" font-family="system-ui,sans-serif" font-size="10">orchard guardian · heavy area control</text>
+</g>
+<!-- panel 2 -->
+<g transform="translate(425 120)">
+ <rect width="350" height="560" rx="22" fill="#20333e" stroke="#8cae9b" stroke-opacity=".55" stroke-width="2"/>
+ <text x="175" y="34" text-anchor="middle" fill="#efffdc" font-family="system-ui,sans-serif" font-size="18" font-weight="800">LANTERN QUEEN</text>
+ <ellipse cx="175" cy="418" rx="105" ry="17" fill="#071318" opacity=".6"/>
+ <g filter="url(#glow)" fill="none" stroke="#b5ed9b" stroke-width="7"><path d="M175 165 Q84 119 72 216 Q87 279 147 272"/><path d="M184 165 Q274 119 287 216 Q271 279 211 272"/><path d="M176 190 Q119 250 112 332 M185 190 Q240 252 240 331"/></g>
+ <path d="M130 155 Q130 96 175 75 Q221 98 220 155 L206 323 Q175 351 145 323Z" fill="url(#ghost)" stroke="#4b7e78" stroke-width="8"/>
+ <path d="M132 143 Q108 104 126 76 Q148 93 154 126 M196 126 Q207 90 231 77 Q245 111 215 148" fill="#b4e985" stroke="#6aa77b" stroke-width="6"/>
+ <g fill="#f5ffd2" filter="url(#glow)"><circle cx="157" cy="190" r="8"/><circle cx="194" cy="190" r="8"/></g>
+ <path d="M157 228 Q176 241 195 227" stroke="#4b7374" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <g fill="url(#moon)" stroke="#d9ffba" stroke-width="3" filter="url(#glow)"><circle cx="78" cy="304" r="22"/><circle cx="277" cy="309" r="20"/><circle cx="175" cy="357" r="17"/></g>
+ <path d="M67 454 L283 454" stroke="#7e9d9a" stroke-width="2" opacity=".7"/>
+ <text x="175" y="486" text-anchor="middle" fill="#d9efc4" font-family="system-ui,sans-serif" font-size="13" font-weight="700">WISP-SWARM TELEGRAPH</text>
+ <text x="175" y="508" text-anchor="middle" fill="#b9d2c8" font-family="system-ui,sans-serif" font-size="11">Summon circles appear before wisps arrive</text>
+ <text x="175" y="536" text-anchor="middle" fill="#a7c3b6" font-family="system-ui,sans-serif" font-size="10">nocturnal monarch · fast support summons</text>
+</g>
+<!-- panel 3 -->
+<g transform="translate(810 120)">
+ <rect width="350" height="560" rx="22" fill="#35332b" stroke="#b29b69" stroke-opacity=".6" stroke-width="2"/>
+ <text x="175" y="34" text-anchor="middle" fill="#fff0d2" font-family="system-ui,sans-serif" font-size="18" font-weight="800">COMPOST COLOSSUS</text>
+ <ellipse cx="175" cy="418" rx="128" ry="18" fill="#071318" opacity=".6"/>
+ <path d="M104 212 Q84 157 128 131 Q172 98 220 130 Q269 159 247 228 L238 367 Q174 399 112 367Z" fill="url(#compost)" stroke="#51432d" stroke-width="10"/>
+ <path d="M109 219 Q58 208 50 273 L73 323 L120 302 M241 217 Q291 209 300 273 L277 323 L231 302" fill="#806a44" stroke="#55442e" stroke-width="11"/>
+ <path d="M126 145 Q101 107 126 86 Q150 101 151 131 M198 132 Q207 91 235 90 Q245 120 220 151" fill="#6e8950" stroke="#4c5b36" stroke-width="7"/>
+ <g fill="#f4d88a"><circle cx="148" cy="236" r="10"/><circle cx="201" cy="236" r="10"/></g>
+ <path d="M143 282 Q176 299 208 281" fill="none" stroke="#403525" stroke-width="10" stroke-linecap="round"/>
+ <g fill="#a5bd73"><path d="M121 338 Q88 363 96 391 Q129 384 137 354Z"/><path d="M225 338 Q259 362 251 391 Q220 385 210 354Z"/></g>
+ <path d="M63 454 L287 454" stroke="#aa976b" stroke-width="2" opacity=".7"/>
+ <text x="175" y="486" text-anchor="middle" fill="#f3e2bc" font-family="system-ui,sans-serif" font-size="13" font-weight="700">HEAVY-SLAM TELEGRAPH</text>
+ <text x="175" y="508" text-anchor="middle" fill="#d3c4a5" font-family="system-ui,sans-serif" font-size="11">A widening ground ring signals the impact</text>
+ <text x="175" y="536" text-anchor="middle" fill="#c5b38e" font-family="system-ui,sans-serif" font-size="10">armoured bruiser · slow readable attacks</text>
+</g>
+<text x="600" y="724" text-anchor="middle" fill="#b8d3a9" font-family="system-ui,sans-serif" font-size="12" letter-spacing="2">CONCEPTS ONLY · NO COMBAT DATA OR REWARDS IMPLEMENTED</text>
+</svg>

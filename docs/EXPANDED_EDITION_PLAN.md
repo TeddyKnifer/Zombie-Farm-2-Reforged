@@ -73,6 +73,7 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 - `docs/concepts/glowcap.svg` — original friendly support-zombie character study.
 - `docs/concepts/mooncap-crown.svg` — original head-slot mutation study, showing the intended replaceable crown silhouette.
 - `docs/concepts/moonlit-decorations.svg` — original greenhouse, mushroom lantern, root arch, and pond-spirit studies; cosmetic concepts only.
+- `docs/concepts/boss-roster.svg` — original Rotwood Keeper, Lantern Queen, and Compost Colossus silhouette/telegraph studies; no combat data or rewards.
 - These are design references only, not production sprites or wired game content. They have no gameplay, save, economy, or server effects. Production art must be adapted to the repository's sprite pipeline and reviewed before integration.
 
 ## Delivery sequence
