@@ -95,6 +95,7 @@ Everything a contributor needs is in this repo:
 | [server/README.md](server/README.md) | API surface, local Worker setup, ops notes |
 | [server/RUNBOOK.md](server/RUNBOOK.md) | Incident response and operational procedures |
 | [docs/](docs/) | Per-system deep dives — see the split below |
+| [docs/EXPANDED_EDITION_PLAN.md](docs/EXPANDED_EDITION_PLAN.md) | Proposed original zombies, crops, mutations, bosses, decorations, and delivery gates for the Expanded Edition |
 
 `docs/` holds two kinds of file, and the difference matters when you're deciding whether to
 trust one:
