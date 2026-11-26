@@ -71,6 +71,7 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 
 - `docs/concepts/moonmelon.svg` — original three-stage crop study (sprout, vine, ripe fruit).
 - `docs/concepts/glowcap.svg` — original friendly support-zombie character study.
+- `docs/concepts/mooncap-crown.svg` — original head-slot mutation study, showing the intended replaceable crown silhouette.
 - These are design references only, not production sprites or wired game content. They have no gameplay, save, economy, or server effects. Production art must be adapted to the repository's sprite pipeline and reviewed before integration.
 
 ## Delivery sequence

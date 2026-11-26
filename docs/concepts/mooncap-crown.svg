@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Mooncap Crown mutation concept</title>
+<desc id="desc">A friendly green zombie head wearing a luminous crescent mushroom crown, shown as a head-slot mutation study.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#172c35"/><stop offset="1" stop-color="#101d27"/></linearGradient>
+ <linearGradient id="skin" x2=".8" y2="1"><stop stop-color="#c3ed83"/><stop offset="1" stop-color="#62975a"/></linearGradient>
+ <linearGradient id="cap" x2=".2" y2="1"><stop stop-color="#edffc6"/><stop offset=".5" stop-color="#a6e875"/><stop offset="1" stop-color="#4b9a77"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="420" rx="28" fill="url(#bg)"/>
+<g fill="#e8ffd0" opacity=".65"><circle cx="73" cy="68" r="2"/><circle cx="548" cy="65" r="2"/><circle cx="590" cy="155" r="1.5"/><circle cx="275" cy="54" r="1.5"/></g>
+<text x="320" y="38" fill="#efffda" font-family="system-ui,sans-serif" font-size="17" font-weight="800" letter-spacing="4" text-anchor="middle">MOONCAP CROWN · MUTATION STUDY</text>
+<ellipse cx="320" cy="354" rx="116" ry="16" fill="#080f15" opacity=".55"/>
+<path d="M240 202 Q235 158 270 147 Q320 126 370 147 Q405 161 400 214 L389 311 Q320 350 251 311Z" fill="url(#skin)" stroke="#315c43" stroke-width="8"/>
+<path d="M255 174 Q248 111 286 103 Q299 61 339 91 Q379 68 390 117 Q414 139 387 183 Q320 203 255 174Z" fill="url(#cap)" stroke="#d9ffad" stroke-width="8" filter="url(#glow)"/>
+<path d="M274 133 Q320 153 379 130" fill="none" stroke="#3f8d68" stroke-width="7" stroke-linecap="round"/>
+<g fill="#f2ffd6"><circle cx="286" cy="122" r="7"/><circle cx="350" cy="111" r="8"/><circle cx="379" cy="147" r="5"/></g>
+<g fill="#263a2c"><ellipse cx="287" cy="244" rx="11" ry="15"/><ellipse cx="353" cy="244" rx="11" ry="15"/></g>
+<g fill="#f5ffd9"><circle cx="290" cy="239" r="4"/><circle cx="356" cy="239" r="4"/></g>
+<path d="M294 282 Q320 300 346 280" fill="none" stroke="#35573b" stroke-width="7" stroke-linecap="round"/>
+<path d="M251 221 Q226 215 218 239 M389 220 Q413 212 423 238" fill="none" stroke="#9fce70" stroke-width="14" stroke-linecap="round"/>
+<g fill="#d9f6a8" opacity=".85"><circle cx="217" cy="185" r="4"/><circle cx="416" cy="178" r="3"/><circle cx="398" cy="92" r="3"/><circle cx="238" cy="113" r="2"/></g>
+<g font-family="system-ui,sans-serif" fill="#dff8c4">
+ <path d="M399 125 L472 99 L527 99" stroke="#b6e889" stroke-width="2" fill="none"/>
+ <text x="535" y="94" font-size="12" font-weight="700">HEAD SLOT</text>
+ <text x="535" y="111" font-size="10" opacity=".8">replaceable cap / crown</text>
+ <path d="M385 292 L465 322 L527 322" stroke="#b6e889" stroke-width="2" fill="none"/>
+ <text x="535" y="318" font-size="12" font-weight="700">TRADE-OFF</text>
+ <text x="535" y="335" font-size="10" opacity=".8">concept only · unbalanced</text>
+</g>
+<text x="320" y="399" fill="#c8e9a9" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle" letter-spacing="2">ORIGINAL ART · NOT A PRODUCTION SPRITE</text>
+</svg>
