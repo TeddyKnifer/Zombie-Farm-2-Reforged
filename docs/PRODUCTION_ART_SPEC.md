@@ -37,6 +37,10 @@ Runtime locations are already defined in `src/assets.ts`:
 
 The current SVG crop study is a design reference, not a substitute for these three runtime images. Before packing, inspect several neighboring crop assets and match their canvas, pivot/ground contact, baked-soil treatment, and alpha convention. Do not guess dimensions from the concept sheet.
 
+## Moonmelon visual handoff
+
+The vector study at `docs/concepts/moonmelon-production-sheet.svg` separates the three distinct deliverables visually: a low young vine, a mature vine with a readable ripe fruit, and a standalone harvest/Market icon. These are design targets only. Before making runtime files, compare neighboring crop PNGs for exact canvas size, transparent/baked-soil convention, pivot and crop-top keying. The concept SVG's viewBox must not be used as a guessed runtime canvas.
+
 ## Zombie: Glowcap
 
 The existing special-zombie path is preferable to inventing a new actor renderer. The runtime contract is `SpecialZombieManifest` in `src/assets.ts`:
