@@ -20,6 +20,10 @@ combat numbers) with new "Reforged" additions (the online/social layer).
 **Nothing to install — the game is live at <https://zombiefarmreforged.com>.**
 Choose **Local Farm** on the title screen to play without an account.
 
+### Play on iPhone or iPad
+
+The game runs in Safari; it does not need a native App Store install. Once the Expanded Edition build is published, open its game URL in **Safari** (not an in-app browser), tap **Share** → **Add to Home Screen**, keep **Open as Web App** enabled if shown, then tap **Add**. Launch it from the new Home Screen icon. The game uses the browser's local storage for a Local Farm, so avoid clearing Safari website data unless you have exported your save in Settings first.
+
 ### Or download it for Windows
 
 For playing offline, or for running someone's modded build, there are two zips.
