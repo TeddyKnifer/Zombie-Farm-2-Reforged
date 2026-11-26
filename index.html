@@ -71,6 +71,13 @@
         transform: translateY(8vh); }
       .boot-logo { width: min(80vw, 400px, 58vh); height: auto;
         filter: drop-shadow(0 12px 20px rgba(0,0,0,.45)); }
+      .boot-edition {
+        margin-top: 10px; padding: 6px 13px; border: 1px solid rgba(208,244,157,.55);
+        border-radius: 999px; background: rgba(18,42,31,.78);
+        color: #dcffab; font: 800 10px/1 system-ui, sans-serif;
+        letter-spacing: .22em; text-transform: uppercase;
+        box-shadow: 0 4px 14px rgba(0,0,0,.28);
+      }
       .boot-plate { position: relative; overflow: hidden; isolation: isolate; margin-top: 14px;
         width: min(62vw, 300px); height: 14px;
         background: linear-gradient(#2a1c12, #160e08); border-radius: 8px;
@@ -104,7 +111,7 @@
   <body>
     <div id="app"></div>
     <div id="hud">
-      <b>Zombie Farm Reforged</b><br />
+      <b>Zombie Farm 2: Expanded Edition</b><br />
       Click a tile to walk there · drag to pan
     </div>
 
@@ -113,7 +120,7 @@
       <div class="boot-bg-art"></div>
       <div class="boot-scrim"></div>
       <div class="boot-stack">
-        <img class="boot-logo" src="assets/title/logo-reforged.png" alt="Zombie Farm Reforged" />
+        <img class="boot-logo" src="assets/title/logo-reforged.png" alt="Zombie Farm Reforged" />\n        <div class="boot-edition">Expanded Edition</div>
         <div class="boot-plate"><div class="pfill" id="bootFill"></div></div>
         <div class="boot-status" id="bootStatus">Gathering Zombies…</div>
       </div>
