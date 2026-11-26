@@ -69,6 +69,9 @@ Decorations should be cosmetic unless their gameplay effect, placement footprint
 
 ### Original visual concept assets (pre-production)
 
+### iPhone release validation
+- `docs/IOS_INSTALL_AND_QA.md` records the Safari Home Screen installation flow, device acceptance matrix, and release gates. It is a test plan only; no physical iPhone test is claimed.
+
 ### Production implementation spec
 - `docs/PRODUCTION_ART_SPEC.md` maps the Moonmelon, Glowcap, Mooncap Crown, boss, and decoration concepts to the repository's existing runtime contracts, asset paths, atlas stamping, provenance rules, and review checklist.
 - `docs/concepts/glowcap-animation.svg` is a pose-blocking storyboard for an idle loop and spore-burst attack; it is not a runtime flipbook or production sprite sheet.
