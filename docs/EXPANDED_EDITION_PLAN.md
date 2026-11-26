@@ -65,6 +65,14 @@ These are original encounter concepts, not yet RaidCatalog entries. Each boss ne
 
 Decorations should be cosmetic unless their gameplay effect, placement footprint, price, storage behavior, and server authority are explicitly designed.
 
+
+
+### Original visual concept assets (pre-production)
+
+- `docs/concepts/moonmelon.svg` — original three-stage crop study (sprout, vine, ripe fruit).
+- `docs/concepts/glowcap.svg` — original friendly support-zombie character study.
+- These are design references only, not production sprites or wired game content. They have no gameplay, save, economy, or server effects. Production art must be adapted to the repository's sprite pipeline and reviewed before integration.
+
 ## Delivery sequence
 
 ### Milestone 1 — modern presentation (in progress)

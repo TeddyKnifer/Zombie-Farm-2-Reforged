@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Glowcap original zombie concept</title><desc id="desc">A friendly little garden zombie with a glowing mushroom cap, mossy skin, leaf details and oversized boots.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#172c35"/><stop offset="1" stop-color="#101d27"/></linearGradient>
+ <linearGradient id="skin" x2=".9" y2="1"><stop stop-color="#b6e17a"/><stop offset="1" stop-color="#558d55"/></linearGradient>
+ <radialGradient id="cap"><stop stop-color="#e7ffb8"/><stop offset=".5" stop-color="#9de56d"/><stop offset="1" stop-color="#418b70"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="420" rx="28" fill="url(#bg)"/>
+<g fill="#e8ffd0" opacity=".6"><circle cx="70" cy="66" r="2"/><circle cx="552" cy="70" r="2"/><circle cx="592" cy="151" r="1.5"/><circle cx="282" cy="49" r="1.5"/></g>
+<text x="320" y="38" fill="#efffda" font-family="system-ui,sans-serif" font-size="17" font-weight="800" letter-spacing="4" text-anchor="middle">GLOWCAP · CHARACTER STUDY</text>
+<ellipse cx="320" cy="363" rx="120" ry="17" fill="#080f15" opacity=".55"/>
+<g stroke="#315c43" stroke-width="7" stroke-linejoin="round">
+ <path d="M272 267 Q251 310 253 344 L300 344 L313 294 L330 294 L343 344 L390 344 Q390 298 365 263Z" fill="#567f55"/>
+ <path d="M254 335 Q232 337 228 357 Q232 371 300 368 L305 346Z" fill="#4d5549"/>
+ <path d="M343 346 L348 368 Q407 377 413 359 Q407 337 387 337Z" fill="#4d5549"/>
+ <path d="M267 190 Q239 205 238 253 L251 289 Q320 313 389 285 L397 243 Q389 202 360 190Z" fill="url(#skin)"/>
+ <path d="M245 215 Q217 222 208 263 L221 277 Q245 271 259 247Z" fill="#8dbd69"/>
+ <path d="M386 216 Q412 225 422 261 L408 278 Q385 269 374 245Z" fill="#8dbd69"/>
+ <path d="M262 192 Q259 137 320 123 Q382 132 378 193 Q322 217 262 192Z" fill="url(#cap)" stroke="#d9ffad" filter="url(#glow)"/>
+</g>
+<g fill="#f2ffd6"><circle cx="290" cy="157" r="8"/><circle cx="348" cy="151" r="7"/><circle cx="320" cy="181" r="5"/></g>
+<g fill="#263a2c"><ellipse cx="294" cy="232" rx="10" ry="13"/><ellipse cx="350" cy="232" rx="10" ry="13"/></g>
+<g fill="#f5ffd9"><circle cx="297" cy="228" r="3"/><circle cx="353" cy="228" r="3"/></g>
+<path d="M300 258 Q321 273 344 256" fill="none" stroke="#35573b" stroke-width="6" stroke-linecap="round"/>
+<path d="M285 204 Q297 194 308 204 M337 204 Q349 194 361 204" fill="none" stroke="#456c49" stroke-width="5" stroke-linecap="round"/>
+<g fill="#b9e77b"><path d="M264 289 Q249 270 239 281 Q247 302 268 304Z"/><path d="M379 285 Q398 265 409 280 Q400 302 378 302Z"/></g>
+<g fill="#d9f6a8" opacity=".8"><circle cx="226" cy="193" r="4"/><circle cx="416" cy="190" r="3"/><circle cx="400" cy="124" r="2"/></g>
+<text x="320" y="401" fill="#c8e9a9" font-family="system-ui,sans-serif" font-size="12" text-anchor="middle" letter-spacing="2">FRIENDLY SUPPORT ZOMBIE · EARLY CONCEPT</text>
+</svg>

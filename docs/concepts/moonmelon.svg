@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Moonmelon original crop concept</title><desc id="desc">Three growth stages of a fantasy moonmelon plant: seedling, leafy vine and ripe luminous fruit.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#172c35"/><stop offset="1" stop-color="#101d27"/></linearGradient>
+ <radialGradient id="fruit"><stop stop-color="#e7ffb7"/><stop offset=".48" stop-color="#a6e66c"/><stop offset="1" stop-color="#4f9c62"/></radialGradient>
+ <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#b5ed76"/><stop offset="1" stop-color="#39845a"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="420" rx="28" fill="url(#bg)"/>
+<g fill="#e8ffd0" opacity=".65"><circle cx="65" cy="56" r="2"/><circle cx="552" cy="58" r="2"/><circle cx="592" cy="152" r="1.5"/><circle cx="284" cy="45" r="1.5"/></g>
+<g font-family="system-ui,sans-serif" text-anchor="middle" fill="#efffda">
+ <text x="320" y="38" font-size="17" font-weight="800" letter-spacing="4">MOONMELON · CROP STUDY</text>
+ <text x="108" y="377" font-size="13" font-weight="700">01 · SPROUT</text><text x="320" y="377" font-size="13" font-weight="700">02 · VINE</text><text x="532" y="377" font-size="13" font-weight="700">03 · HARVEST</text>
+</g>
+<g stroke="#7cc46c" stroke-width="7" stroke-linecap="round" fill="none"><path d="M108 330 Q104 292 108 254"/><path d="M320 330 Q317 274 322 220 Q335 182 367 172"/><path d="M532 330 Q527 271 532 216 Q550 179 575 170"/></g>
+<g fill="url(#leaf)" stroke="#2f754e" stroke-width="3">
+ <path d="M108 284 Q50 244 58 210 Q102 213 108 284Z"/><path d="M108 266 Q157 217 177 238 Q165 277 108 266Z"/>
+ <path d="M322 280 Q240 241 250 195 Q302 197 322 280Z"/><path d="M323 254 Q365 187 409 205 Q399 254 323 254Z"/><path d="M342 213 Q329 164 356 145 Q384 174 342 213Z"/>
+ <path d="M532 279 Q451 238 464 192 Q514 201 532 279Z"/><path d="M533 250 Q572 188 615 206 Q602 252 533 250Z"/><path d="M555 210 Q545 163 573 145 Q601 177 555 210Z"/>
+</g>
+<g fill="#9de26d" opacity=".8"><ellipse cx="108" cy="331" rx="39" ry="8"/><ellipse cx="320" cy="331" rx="57" ry="9"/><ellipse cx="532" cy="331" rx="64" ry="9"/></g>
+<g filter="url(#glow)"><ellipse cx="532" cy="275" rx="34" ry="43" fill="url(#fruit)" stroke="#dcffae" stroke-width="3"/><path d="M532 233 Q524 217 535 207" fill="none" stroke="#a5e66e" stroke-width="7" stroke-linecap="round"/></g>
+<g fill="none" stroke="#e8ffc0" stroke-width="2" opacity=".8"><path d="M513 264 Q532 247 550 264"/><path d="M510 282 Q532 298 554 282"/><path d="M532 242 V309"/></g>
+<g fill="#d9f6a8" opacity=".7"><circle cx="495" cy="244" r="3"/><circle cx="567" cy="252" r="2"/><circle cx="550" cy="310" r="2"/></g>
+</svg>
