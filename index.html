@@ -9,25 +9,25 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
     />
-    <title>Zombie Farm Reforged</title>
+    <title>Zombie Farm 2: Expanded Edition</title>
 
     <!-- PWA: installable to the home screen with an app icon. Paths use Vite's
          %BASE_URL% token so they resolve both at a domain root and under a
          GitHub Pages project subpath. Icon paths INSIDE the manifest are relative
          to the manifest URL, so they need no base prefix. -->
     <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
-    <link rel="icon" href="%BASE_URL%icons/OG_icon.webp" type="image/webp" />
-    <meta name="theme-color" content="#33502b" />
-    <meta name="application-name" content="Zombie Farm" />
+    <link rel="icon" href="%BASE_URL%icons/expanded-edition.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#18352b" />
+    <meta name="application-name" content="Zombie Farm 2: Expanded Edition" />
     <!-- iOS: standalone (no Safari chrome), draw under the notch to match
          viewport-fit=cover, and use its own home-screen icon (ignores manifest). -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Zombie Farm" />
+    <meta name="apple-mobile-web-app-title" content="Zombie Farm 2 Expanded" />
     <link rel="apple-touch-icon" href="%BASE_URL%icons/apple-touch-icon.png" />
     <style>
-      html, body { margin: 0; height: 100%; background: #33502b; overflow: hidden;
+      html, body { margin: 0; height: 100%; background: #18352b; overflow: hidden;
         overscroll-behavior: none; }
       /* Fill the safe area (notch / home indicator) so the canvas covers the
          whole screen; the HUD reads these insets to stay clear of the notch. */
@@ -71,6 +71,13 @@
         transform: translateY(8vh); }
       .boot-logo { width: min(80vw, 400px, 58vh); height: auto;
         filter: drop-shadow(0 12px 20px rgba(0,0,0,.45)); }
+      .boot-edition {
+        margin-top: 10px; padding: 6px 13px; border: 1px solid rgba(208,244,157,.55);
+        border-radius: 999px; background: rgba(18,42,31,.78);
+        color: #dcffab; font: 800 10px/1 system-ui, sans-serif;
+        letter-spacing: .22em; text-transform: uppercase;
+        box-shadow: 0 4px 14px rgba(0,0,0,.28);
+      }
       .boot-plate { position: relative; overflow: hidden; isolation: isolate; margin-top: 14px;
         width: min(62vw, 300px); height: 14px;
         background: linear-gradient(#2a1c12, #160e08); border-radius: 8px;
@@ -104,7 +111,7 @@
   <body>
     <div id="app"></div>
     <div id="hud">
-      <b>Zombie Farm Reforged</b><br />
+      <b>Zombie Farm 2: Expanded Edition</b><br />
       Click a tile to walk there · drag to pan
     </div>
 
@@ -114,6 +121,7 @@
       <div class="boot-scrim"></div>
       <div class="boot-stack">
         <img class="boot-logo" src="assets/title/logo-reforged.png" alt="Zombie Farm Reforged" />
+        <div class="boot-edition">Expanded Edition</div>
         <div class="boot-plate"><div class="pfill" id="bootFill"></div></div>
         <div class="boot-status" id="bootStatus">Gathering Zombies…</div>
       </div>

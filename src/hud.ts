@@ -92,6 +92,8 @@ import {
 // HUD styles live in a real stylesheet (src/ui/hud.css) so they get CSS tooling
 // and hot-reload. Vite injects it at module load — no manual <style> element.
 import "./ui/hud.css";
+// Expanded Edition presentation-only theme; keep after the base HUD stylesheet.
+import "./ui/expandedEdition.css";
 import {
   bindBackdropDismiss, markPrimary, MENU_ACTIVATION_DELAY_MS, openModal,
   shouldBlockFreshMenuActivation,

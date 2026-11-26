@@ -1,0 +1,315 @@
+/*
+ * Zombie Farm 2: Expanded Edition — modern HUD skin.
+ *
+ * This is a presentation-only layer. It deliberately leaves the Pixi farm,
+ * game assets, touch gestures, save data, economy, and combat rules untouched.
+ */
+:root {
+  --zf2e-ink: #f4f7ed;
+  --zf2e-muted: #c5d5b9;
+  --zf2e-glass: rgba(20, 37, 29, .88);
+  --zf2e-glass-deep: rgba(12, 25, 21, .94);
+  --zf2e-edge: rgba(199, 232, 164, .34);
+  --zf2e-lime: #b7f36b;
+  --zf2e-gold: #ffd477;
+  --zf2e-shadow: 0 10px 28px rgba(0, 0, 0, .34);
+}
+
+/* A cleaner, layered top status rail. */
+#hud .topbar {
+  color: var(--zf2e-ink);
+  background: linear-gradient(135deg, rgba(35, 65, 47, .96), rgba(17, 35, 31, .94));
+  border: 1px solid var(--zf2e-edge);
+  border-radius: 18px;
+  padding: 6px 10px;
+  box-shadow: var(--zf2e-shadow), inset 0 1px rgba(255,255,255,.12);
+  -webkit-backdrop-filter: blur(14px) saturate(1.18);
+  backdrop-filter: blur(14px) saturate(1.18);
+}
+#hud .chip {
+  color: #f7ffe9;
+  background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,.045));
+  border: 1px solid rgba(218, 243, 190, .2);
+  border-radius: 11px;
+  border-image: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,.65);
+  box-shadow: inset 0 1px rgba(255,255,255,.08);
+}
+#hud .chip .xpbar {
+  border-color: rgba(0,0,0,.5);
+  border-radius: 99px;
+}
+#hud .chip .xpfill {
+  border-radius: inherit;
+  background: linear-gradient(90deg, #76cf4a, #d4ff82);
+  box-shadow: 0 0 10px rgba(183,243,107,.35);
+}
+
+/* Side actions and farming tools become consistent tactile controls. */
+#hud .menucol {
+  gap: 7px;
+}
+#hud .menucol button,
+#hud .menucol .menu-btn {
+  border-radius: 13px;
+  border: 1px solid var(--zf2e-edge);
+  box-shadow: 0 5px 14px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.12);
+}
+#hud .tools {
+  padding: 7px 9px;
+  gap: 7px;
+  border: 1px solid var(--zf2e-edge);
+  border-radius: 19px;
+  background: linear-gradient(180deg, rgba(27,49,38,.94), rgba(12,25,22,.94));
+  box-shadow: var(--zf2e-shadow), inset 0 1px rgba(255,255,255,.1);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+#hud .tool {
+  border-radius: 13px;
+  transition: transform .14s ease, background-color .14s ease, box-shadow .14s ease;
+}
+#hud .tool:active {
+  transform: translateY(1px) scale(.96);
+}
+#hud .tool.sel {
+  outline: 2px solid var(--zf2e-lime);
+  outline-offset: 1px;
+  background: rgba(183,243,107,.14);
+  box-shadow: 0 0 0 3px rgba(183,243,107,.12), 0 4px 12px rgba(0,0,0,.25);
+}
+
+/* Dialog surfaces: modern glass panels while preserving each panel's sizing. */
+#hud .panelbg {
+  background: rgba(5, 12, 10, .62);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+#hud .panel {
+  color: var(--zf2e-ink);
+  background: linear-gradient(145deg, rgba(37,61,47,.98), rgba(17,32,29,.98));
+  border: 1px solid var(--zf2e-edge);
+  border-radius: 20px;
+  box-shadow: 0 22px 65px rgba(0,0,0,.48), inset 0 1px rgba(255,255,255,.1);
+}
+#hud .panel h2,
+#hud .panel h3 {
+  color: #efffdc;
+  text-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+#hud .panel button {
+  border-radius: 10px;
+}
+
+/* Visible keyboard focus and reduced-motion support. */
+#hud button:focus-visible,
+#hud [role="button"]:focus-visible {
+  outline: 2px solid var(--zf2e-gold);
+  outline-offset: 3px;
+}
+@media (max-width: 700px) {
+  #hud .topbar {
+    border-radius: 15px;
+    padding: 5px 7px;
+    gap: 6px;
+  }
+  #hud .tools {
+    max-width: calc(100vw - 20px);
+    box-sizing: border-box;
+    padding: 6px 7px;
+    gap: 5px;
+  }
+  #hud .tool {
+    border-radius: 11px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #hud .tool { transition: none; }
+}
+
+/* The side rail uses compact .mbtn controls (not generic menu buttons), while
+   quests and the collapsed touch-tool button are separate interactive surfaces. */
+#hud .menucol {
+  border: 1px solid var(--zf2e-edge);
+  border-radius: 18px;
+  padding: 7px;
+  background: linear-gradient(155deg, rgba(31, 57, 43, .96), rgba(12, 27, 23, .96));
+  box-shadow: var(--zf2e-shadow), inset 0 1px rgba(255,255,255,.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+#hud .mbtn {
+  border: 1px solid rgba(207, 235, 177, .25);
+  border-radius: 12px;
+  background: linear-gradient(155deg, rgba(91, 126, 81, .92), rgba(36, 65, 49, .96));
+  box-shadow: inset 0 1px rgba(255,255,255,.13), 0 3px 9px rgba(0,0,0,.25);
+  filter: none;
+  transition: transform .14s ease, filter .14s ease, border-color .14s ease;
+}
+#hud .mbtn:hover {
+  filter: brightness(1.12);
+  border-color: rgba(216, 255, 173, .62);
+}
+#hud .mbtn:active {
+  transform: translateY(1px) scale(.98);
+}
+#hud .mbtn .micon {
+  filter: drop-shadow(0 2px 2px rgba(0,0,0,.48));
+}
+#hud .quest {
+  border: 1px solid var(--zf2e-edge);
+  border-radius: 14px;
+  background: linear-gradient(150deg, rgba(40, 70, 49, .96), rgba(15, 34, 27, .96));
+  box-shadow: 0 5px 14px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.1);
+  border-image: none;
+  transition: transform .14s ease, filter .14s ease;
+}
+#hud .quest:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+}
+#hud .tools {
+  background: linear-gradient(180deg, rgba(28, 52, 39, .96), rgba(12, 25, 22, .96));
+}
+#hud .tool:focus-visible,
+#hud .mbtn:focus-visible,
+#hud .quest:focus-visible,
+#hud .fab:focus-visible,
+#hud .touch-cancel:focus-visible,
+#hud .play-status:focus-visible {
+  outline: 2px solid var(--zf2e-gold);
+  outline-offset: 3px;
+}
+#hud .fab {
+  border: 1px solid var(--zf2e-edge);
+  background: linear-gradient(145deg, rgba(40, 70, 49, .97), rgba(12, 27, 23, .97));
+  box-shadow: 0 8px 22px rgba(0,0,0,.38), inset 0 1px rgba(255,255,255,.12);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+#hud .touch-cancel {
+  border-color: rgba(255, 191, 158, .48);
+  box-shadow: 0 7px 18px rgba(0,0,0,.34), inset 0 1px rgba(255,255,255,.14);
+}
+#hud .panelbg {
+  background: rgba(4, 12, 9, .68);
+}
+#hud .panel button {
+  transition: filter .14s ease, transform .14s ease;
+}
+#hud .panel button:active {
+  transform: translateY(1px);
+}
+@media (max-width: 700px) {
+  #hud .menucol {
+    padding: 6px;
+    border-radius: 15px;
+  }
+  #hud .quest {
+    border-radius: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #hud .mbtn,
+  #hud .quest,
+  #hud .panel button {
+    transition: none;
+  }
+  #hud .mbtn:active,
+  #hud .quest:hover,
+  #hud .panel button:active {
+    transform: none;
+  }
+}
+
+/* Small identity and progression controls complete the same visual language. */
+#hud .profbtn {
+  border-radius: 12px;
+  filter: none;
+  transition: background .14s ease, transform .14s ease;
+}
+#hud .profbtn:hover {
+  background: rgba(216, 255, 173, .12);
+  filter: none;
+}
+#hud .profbtn:active {
+  transform: scale(.96);
+}
+#hud .lf-badge {
+  border-color: rgba(12, 27, 20, .9);
+  box-shadow: 0 2px 8px rgba(0,0,0,.35), 0 0 0 2px rgba(183,243,107,.12);
+}
+#hud .lf-track,
+#hud .lf-p-bar {
+  border-color: rgba(199, 232, 164, .35);
+  background: rgba(0,0,0,.48);
+}
+#hud .play-status {
+  border-color: rgba(199, 232, 164, .32);
+  box-shadow: inset 0 1px rgba(255,255,255,.12), 0 2px 7px rgba(0,0,0,.25);
+}
+#hud .play-status.online {
+  background: linear-gradient(135deg, #286b83, #19465e);
+}
+#hud .play-status.reconnecting {
+  background: linear-gradient(135deg, #9a702b, #674419);
+}
+#hud .play-status.working {
+  background: linear-gradient(135deg, #57833a, #315324);
+}
+#hud .play-status.cached {
+  background: linear-gradient(135deg, #795b3b, #4c3728);
+}
+#hud .questcol {
+  gap: 8px;
+}
+#hud .quest {
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}
+#hud .quest .qbadge {
+  border: 1px solid rgba(255,255,255,.7);
+  box-shadow: 0 2px 5px rgba(0,0,0,.35);
+}
+#hud .qtoast {
+  border: 1px solid rgba(218, 255, 173, .8);
+  background: linear-gradient(135deg, rgba(57, 99, 38, .98), rgba(26, 57, 32, .98));
+  box-shadow: 0 10px 30px rgba(0,0,0,.4), inset 0 1px rgba(255,255,255,.14);
+}
+#hud .plant-label {
+  border: 1px solid var(--zf2e-edge);
+  background: linear-gradient(135deg, rgba(31, 57, 43, .96), rgba(12, 27, 23, .96));
+  box-shadow: var(--zf2e-shadow), inset 0 1px rgba(255,255,255,.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+#hud .visit-banner {
+  border: 1px solid var(--zf2e-edge);
+  background: linear-gradient(135deg, rgba(31, 57, 43, .97), rgba(12, 27, 23, .97));
+  box-shadow: var(--zf2e-shadow), inset 0 1px rgba(255,255,255,.1);
+}
+#hud .visit-banner .vb-exit {
+  border: 1px solid rgba(255, 214, 171, .42);
+  background: linear-gradient(135deg, #bd6243, #803a2c);
+  box-shadow: 0 2px 0 rgba(40, 16, 10, .8);
+}
+@media (max-width: 760px) {
+  #hud .profbtn {
+    border-radius: 10px;
+  }
+  #hud .questcol {
+    gap: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #hud .profbtn {
+    transition: none;
+  }
+  #hud .profbtn:active {
+    transform: none;
+  }
+}
+

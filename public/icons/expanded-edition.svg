@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Zombie Farm 2 Expanded Edition</title>
+  <desc id="desc">A friendly green zombie sprout rising from a garden patch beneath a moon.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#243e35"/><stop offset="1" stop-color="#10251f"/></linearGradient>
+    <linearGradient id="soil" x2="0" y2="1"><stop stop-color="#8a603d"/><stop offset="1" stop-color="#4c3529"/></linearGradient>
+    <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#d5ff83"/><stop offset="1" stop-color="#65b94b"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <circle cx="390" cy="112" r="49" fill="#ffe39a" opacity=".95"/>
+  <circle cx="409" cy="96" r="49" fill="#243e35"/>
+  <path d="M60 355 Q256 292 452 355 L452 430 Q256 482 60 430Z" fill="url(#soil)" stroke="#d2a16b" stroke-width="10"/>
+  <path d="M78 369 Q256 320 434 369" fill="none" stroke="#b4e66b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M256 348 C252 285 258 225 256 175" fill="none" stroke="#78c85a" stroke-width="24" stroke-linecap="round"/>
+  <path d="M252 225 C181 224 143 174 156 128 C214 127 259 159 252 225Z" fill="url(#leaf)" stroke="#e0ffad" stroke-width="8"/>
+  <path d="M260 191 C273 125 329 102 373 125 C368 181 323 218 260 191Z" fill="url(#leaf)" stroke="#e0ffad" stroke-width="8"/>
+  <path d="M166 137 Q205 166 245 213 M359 135 Q316 154 271 183" fill="none" stroke="#4b9843" stroke-width="8" stroke-linecap="round"/>
+  <path d="M178 276 Q183 226 256 222 Q329 226 334 276 L324 333 Q256 365 188 333Z" fill="#a7dc68" stroke="#e2ffad" stroke-width="9"/>
+  <path d="M202 282 Q218 265 234 282 M278 282 Q294 265 310 282" fill="none" stroke="#315b39" stroke-width="13" stroke-linecap="round"/>
+  <ellipse cx="218" cy="299" rx="8" ry="11" fill="#f7f2cf"/>
+  <ellipse cx="294" cy="299" rx="8" ry="11" fill="#f7f2cf"/>
+  <path d="M230 320 Q256 338 282 320" fill="none" stroke="#315b39" stroke-width="9" stroke-linecap="round"/>
+  <path d="M192 250 Q173 238 165 252 M320 250 Q339 238 347 252" fill="none" stroke="#a7dc68" stroke-width="15" stroke-linecap="round"/>
+  <g fill="#f3d27b"><circle cx="112" cy="282" r="7"/><circle cx="395" cy="260" r="6"/><circle cx="370" cy="324" r="5"/></g>
+</svg>

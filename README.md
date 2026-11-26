@@ -20,6 +20,10 @@ combat numbers) with new "Reforged" additions (the online/social layer).
 **Nothing to install — the game is live at <https://zombiefarmreforged.com>.**
 Choose **Local Farm** on the title screen to play without an account.
 
+### Play on iPhone or iPad
+
+The game runs in Safari; it does not need a native App Store install. Once the Expanded Edition build is published, open its game URL in **Safari** (not an in-app browser), tap **Share** → **Add to Home Screen**, keep **Open as Web App** enabled if shown, then tap **Add**. Launch it from the new Home Screen icon. The game uses the browser's local storage for a Local Farm, so avoid clearing Safari website data unless you have exported your save in Settings first.
+
 ### Or download it for Windows
 
 For playing offline, or for running someone's modded build, there are two zips.
@@ -95,6 +99,7 @@ Everything a contributor needs is in this repo:
 | [server/README.md](server/README.md) | API surface, local Worker setup, ops notes |
 | [server/RUNBOOK.md](server/RUNBOOK.md) | Incident response and operational procedures |
 | [docs/](docs/) | Per-system deep dives — see the split below |
+| [docs/EXPANDED_EDITION_PLAN.md](docs/EXPANDED_EDITION_PLAN.md) | Proposed original zombies, crops, mutations, bosses, decorations, and delivery gates for the Expanded Edition |
 
 `docs/` holds two kinds of file, and the difference matters when you're deciding whether to
 trust one:

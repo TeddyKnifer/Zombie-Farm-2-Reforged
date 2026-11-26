@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Moonmelon production sprite study</title>
+<desc id="desc">Three separate original vector asset studies: young Moonmelon vine, mature Moonmelon plant with fruit, and a standalone harvested Moonmelon icon.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#1a3038"/><stop offset="1" stop-color="#0c1c24"/></linearGradient>
+ <linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#c0ef80"/><stop offset="1" stop-color="#39885b"/></linearGradient>
+ <radialGradient id="fruit"><stop stop-color="#f1ffc8"/><stop offset=".48" stop-color="#b7ed76"/><stop offset="1" stop-color="#4b9c68"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1100" height="650" rx="30" fill="url(#bg)"/>
+<g fill="#e7ffd3" opacity=".55"><circle cx="80" cy="76" r="2"/><circle cx="1018" cy="86" r="2"/><circle cx="540" cy="65" r="1.5"/><circle cx="1060" cy="320" r="1.5"/></g>
+<text x="550" y="48" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="23" font-weight="800" letter-spacing="4">MOONMELON · PRODUCTION SPRITE STUDY</text>
+<text x="550" y="76" text-anchor="middle" fill="#b9d5a8" font-family="system-ui,sans-serif" font-size="12" letter-spacing="2">ORIGINAL VECTOR ART DIRECTION · NOT YET RUNTIME PNGS</text>
+<g transform="translate(45 115)">
+ <rect width="320" height="450" rx="20" fill="#213a35" stroke="#769b70" stroke-opacity=".55" stroke-width="2"/>
+ <text x="160" y="36" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="17" font-weight="800">STAGE 1 · YOUNG VINE</text>
+ <ellipse cx="160" cy="345" rx="112" ry="13" fill="#071318" opacity=".55"/>
+ <path d="M160 345 Q155 285 164 231 Q176 203 211 193" fill="none" stroke="#75bd69" stroke-width="10" stroke-linecap="round"/>
+ <g fill="url(#leaf)" stroke="#337c54" stroke-width="4">
+  <path d="M163 292 Q82 253 89 206 Q143 210 163 292Z"/>
+  <path d="M164 271 Q220 208 264 224 Q251 276 164 271Z"/>
+  <path d="M174 224 Q159 173 190 151 Q223 185 174 224Z"/>
+ </g>
+ <path d="M160 345 Q145 363 119 367 M160 345 Q180 365 204 368" stroke="#a4d77a" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <text x="160" y="398" text-anchor="middle" fill="#cde6b8" font-family="system-ui,sans-serif" font-size="12">Low silhouette · clear ground contact</text>
+ <text x="160" y="419" text-anchor="middle" fill="#a9c79a" font-family="system-ui,sans-serif" font-size="10">crop stage texture candidate</text>
+</g>
+<g transform="translate(390 115)">
+ <rect width="320" height="450" rx="20" fill="#213a35" stroke="#769b70" stroke-opacity=".55" stroke-width="2"/>
+ <text x="160" y="36" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="17" font-weight="800">STAGE 2 · RIPE VINE</text>
+ <ellipse cx="160" cy="345" rx="120" ry="13" fill="#071318" opacity=".55"/>
+ <path d="M155 345 Q155 280 165 220 Q180 186 223 170 M160 290 Q124 253 100 254" fill="none" stroke="#75bd69" stroke-width="10" stroke-linecap="round"/>
+ <g fill="url(#leaf)" stroke="#337c54" stroke-width="4">
+  <path d="M160 300 Q75 265 80 207 Q136 212 160 300Z"/>
+  <path d="M164 279 Q225 203 282 223 Q263 282 164 279Z"/>
+  <path d="M182 210 Q164 150 201 128 Q239 167 182 210Z"/>
+  <path d="M121 262 Q75 220 92 184 Q135 205 121 262Z"/>
+ </g>
+ <g filter="url(#glow)">
+  <ellipse cx="226" cy="281" rx="31" ry="39" fill="url(#fruit)" stroke="#e5ffbb" stroke-width="3"/>
+  <path d="M225 243 Q217 228 231 218" fill="none" stroke="#a4dd6d" stroke-width="7" stroke-linecap="round"/>
+ </g>
+ <g fill="none" stroke="#f0ffc9" stroke-width="2" opacity=".75"><path d="M204 274 Q226 254 247 274"/><path d="M204 291 Q225 307 248 290"/><path d="M226 251 V310"/></g>
+ <text x="160" y="398" text-anchor="middle" fill="#cde6b8" font-family="system-ui,sans-serif" font-size="12">Fruit visible at farm zoom</text>
+ <text x="160" y="419" text-anchor="middle" fill="#a9c79a" font-family="system-ui,sans-serif" font-size="10">crop stage texture candidate</text>
+</g>
+<g transform="translate(735 115)">
+ <rect width="320" height="450" rx="20" fill="#213a35" stroke="#769b70" stroke-opacity=".55" stroke-width="2"/>
+ <text x="160" y="36" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="17" font-weight="800">HARVEST · ICON</text>
+ <ellipse cx="160" cy="293" rx="96" ry="16" fill="#071318" opacity=".5"/>
+ <g filter="url(#glow)">
+  <ellipse cx="160" cy="248" rx="77" ry="91" fill="url(#fruit)" stroke="#e7ffbe" stroke-width="6"/>
+  <path d="M160 159 Q146 134 166 115" fill="none" stroke="#a6df70" stroke-width="13" stroke-linecap="round"/>
+ </g>
+ <g fill="none" stroke="#f4ffd6" stroke-width="4" opacity=".8"><path d="M111 226 Q160 180 208 226"/><path d="M111 267 Q160 310 209 267"/><path d="M160 176 V319"/></g>
+ <g fill="#e8ffc3"><circle cx="110" cy="190" r="6"/><circle cx="210" cy="198" r="5"/><circle cx="202" cy="299" r="4"/></g>
+ <text x="160" y="398" text-anchor="middle" fill="#cde6b8" font-family="system-ui,sans-serif" font-size="12">Standalone produce artwork</text>
+ <text x="160" y="419" text-anchor="middle" fill="#a9c79a" font-family="system-ui,sans-serif" font-size="10">Market / harvest pickup icon</text>
+</g>
+<text x="550" y="612" text-anchor="middle" fill="#b8d4a8" font-family="system-ui,sans-serif" font-size="12">Final pixel dimensions, pivots, baked-soil treatment and alpha must be checked against neighboring runtime crops.</text>
+</svg>

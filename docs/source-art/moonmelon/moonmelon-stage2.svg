@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc"><title>Moonmelon — mature vine</title><desc>Original mature Moonmelon plant with ripe luminous fruit, isolated on a transparent background.</desc><defs><linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#c5ef83"/><stop offset="1" stop-color="#39885b"/></linearGradient><radialGradient id="fruit"><stop stop-color="#f2ffd0"/><stop offset=".5" stop-color="#b7ed76"/><stop offset="1" stop-color="#4b9c68"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g stroke="#337c54" stroke-width="5" stroke-linejoin="round">
+ <path d="M119 224 Q120 176 133 123 Q149 91 191 74 M126 180 Q91 148 59 152" fill="none" stroke="#75bd69" stroke-width="9" stroke-linecap="round"/>
+ <path d="M125 191 Q53 163 53 113 Q107 112 125 191Z" fill="url(#leaf)"/>
+ <path d="M136 166 Q192 92 238 112 Q223 173 136 166Z" fill="url(#leaf)"/>
+ <path d="M151 118 Q134 64 168 43 Q202 78 151 118Z" fill="url(#leaf)"/>
+ <path d="M94 164 Q56 128 74 91 Q115 112 94 164Z" fill="url(#leaf)"/>
+</g>
+<g filter="url(#glow)"><ellipse cx="194" cy="193" rx="31" ry="38" fill="url(#fruit)" stroke="#e5ffbb" stroke-width="4"/><path d="M193 156 Q184 140 198 128" fill="none" stroke="#a4dd6d" stroke-width="7" stroke-linecap="round"/></g>
+<g fill="none" stroke="#f0ffc9" stroke-width="2" opacity=".8"><path d="M172 186 Q194 166 216 186"/><path d="M173 203 Q194 219 216 202"/><path d="M194 166 V218"/></g></svg>

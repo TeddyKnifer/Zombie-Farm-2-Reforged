@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Expanded Edition farm decoration concepts</title>
+<desc id="desc">Four original decorative concepts: a moonlit greenhouse, mushroom lanterns, a root arch and a tiny pond spirit.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#182f38"/><stop offset="1" stop-color="#0d1d25"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#c5f6b5" stop-opacity=".52"/><stop offset="1" stop-color="#5ab9a5" stop-opacity=".13"/></linearGradient>
+ <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#9b7449"/><stop offset="1" stop-color="#4d392c"/></linearGradient>
+ <radialGradient id="lamp"><stop stop-color="#f5ffc0"/><stop offset=".45" stop-color="#b6e878"/><stop offset="1" stop-color="#4f9b68"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="600" rx="30" fill="url(#bg)"/>
+<g fill="#e7ffd4" opacity=".65"><circle cx="74" cy="70" r="2"/><circle cx="822" cy="74" r="2"/><circle cx="470" cy="54" r="1.5"/><circle cx="855" cy="250" r="1.5"/><circle cx="35" cy="300" r="1.5"/></g>
+<text x="450" y="44" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="20" font-weight="800" letter-spacing="4">MOONLIT FARM · DECORATION STUDIES</text>
+<!-- Greenhouse -->
+<g transform="translate(65 108)">
+ <ellipse cx="165" cy="284" rx="156" ry="17" fill="#061116" opacity=".55"/>
+ <path d="M22 160 L165 52 L308 160 V274 H22Z" fill="url(#glass)" stroke="#a7d99a" stroke-width="9" stroke-linejoin="round"/>
+ <path d="M22 160 H308 M165 52 V274 M94 105 V274 M236 105 V274" fill="none" stroke="#91c88d" stroke-width="6"/>
+ <path d="M14 160 L165 45 L316 160" fill="none" stroke="#d4e9b3" stroke-width="10" stroke-linecap="round"/>
+ <path d="M45 274 H285" stroke="#9d754c" stroke-width="13" stroke-linecap="round"/>
+ <path d="M70 252 Q78 217 99 227 Q112 197 130 233 Q150 198 167 235 Q187 211 205 240 Q222 212 242 252" fill="none" stroke="#9ee276" stroke-width="8" stroke-linecap="round"/>
+ <g fill="#d6f6a6"><circle cx="103" cy="221" r="6"/><circle cx="167" cy="229" r="6"/><circle cx="225" cy="232" r="6"/></g>
+ <text x="165" y="324" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="15" font-weight="800">MOONLIT GREENHOUSE</text>
+ <text x="165" y="344" text-anchor="middle" fill="#c6dfb3" font-family="system-ui,sans-serif" font-size="11">large centrepiece · cosmetic</text>
+</g>
+<!-- Mushroom lanterns -->
+<g transform="translate(490 118)">
+ <ellipse cx="145" cy="274" rx="145" ry="16" fill="#061116" opacity=".55"/>
+ <g filter="url(#glow)">
+  <path d="M68 170 Q75 130 91 117 L91 248 H68Z" fill="#9b8059" stroke="#d1bd8b" stroke-width="5"/>
+  <path d="M35 130 Q37 61 93 54 Q150 60 153 130 Q96 157 35 130Z" fill="url(#lamp)" stroke="#e4ffb8" stroke-width="6"/>
+  <path d="M206 198 Q211 165 226 154 L226 257 H206Z" fill="#9b8059" stroke="#d1bd8b" stroke-width="5"/>
+  <path d="M175 165 Q177 108 229 103 Q280 110 282 165 Q229 190 175 165Z" fill="url(#lamp)" stroke="#e4ffb8" stroke-width="6"/>
+ </g>
+ <g fill="#f2ffd7"><circle cx="75" cy="98" r="6"/><circle cx="113" cy="82" r="5"/><circle cx="216" cy="139" r="5"/><circle cx="248" cy="126" r="4"/></g>
+ <text x="159" y="324" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="15" font-weight="800">MUSHROOM LANTERNS</text>
+ <text x="159" y="344" text-anchor="middle" fill="#c6dfb3" font-family="system-ui,sans-serif" font-size="11">small footprint · warm / cool variants</text>
+</g>
+<!-- Root arch -->
+<g transform="translate(74 390)">
+ <path d="M20 120 Q25 18 135 12 Q246 20 250 120" fill="none" stroke="url(#wood)" stroke-width="26" stroke-linecap="round"/>
+ <path d="M22 118 Q55 84 69 43 M248 118 Q214 83 201 42 M133 17 Q111 58 135 93" fill="none" stroke="#a7d179" stroke-width="9" stroke-linecap="round"/>
+ <g fill="#b4e77b"><ellipse cx="65" cy="43" rx="18" ry="8" transform="rotate(-28 65 43)"/><ellipse cx="204" cy="45" rx="18" ry="8" transform="rotate(28 204 45)"/><ellipse cx="133" cy="72" rx="17" ry="8" transform="rotate(-15 133 72)"/></g>
+ <text x="135" y="158" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="15" font-weight="800">ROOT ARCH</text>
+ <text x="135" y="178" text-anchor="middle" fill="#c6dfb3" font-family="system-ui,sans-serif" font-size="11">pathway / entrance accent</text>
+</g>
+<!-- Pond spirit -->
+<g transform="translate(515 395)">
+ <ellipse cx="150" cy="112" rx="139" ry="34" fill="#2b7d82" stroke="#8dd5ba" stroke-width="6"/>
+ <ellipse cx="150" cy="112" rx="103" ry="21" fill="#8ed8b4" opacity=".3"/>
+ <g filter="url(#glow)">
+  <path d="M150 92 Q111 46 133 12 Q155 38 150 92Z" fill="#c3f78b" stroke="#e7ffc6" stroke-width="4"/>
+  <path d="M150 91 Q183 35 207 27 Q203 72 150 91Z" fill="#8fdf9a" stroke="#d8ffc0" stroke-width="4"/>
+  <ellipse cx="151" cy="83" rx="32" ry="37" fill="#c4f38c" stroke="#eaffc6" stroke-width="5"/>
+ </g>
+ <g fill="#294c3d"><circle cx="141" cy="82" r="4"/><circle cx="162" cy="82" r="4"/></g>
+ <path d="M142 98 Q152 108 162 98" fill="none" stroke="#456b48" stroke-width="4" stroke-linecap="round"/>
+ <g fill="#d7f8b8"><circle cx="59" cy="99" r="4"/><circle cx="238" cy="115" r="3"/><circle cx="213" cy="72" r="2"/></g>
+ <text x="150" y="158" text-anchor="middle" fill="#efffda" font-family="system-ui,sans-serif" font-size="15" font-weight="800">POND SPIRIT</text>
+ <text x="150" y="178" text-anchor="middle" fill="#c6dfb3" font-family="system-ui,sans-serif" font-size="11">ambient decoration · no gameplay effect</text>
+</g>
+</svg>
