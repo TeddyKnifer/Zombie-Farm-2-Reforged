@@ -1,7 +1,7 @@
 {
-  "name": "Zombie Farm Reforged",
-  "short_name": "Zombie Farm",
-  "description": "Grow crops, raise a zombie army, and raid rival farms.",
+  "name": "Zombie Farm 2: Expanded Edition",
+  "short_name": "Zombie Farm 2",
+  "description": "Grow crops, raise a zombie army, discover mutations, and expand your farm.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
